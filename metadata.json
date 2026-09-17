@@ -1,0 +1,6 @@
+{
+  "name": "Haus Of Aveda Paddington",
+  "description": "Haus Of Aveda Paddington - A luxury Aveda salon experience in the heart of Paddington, Sydney. 184 Oxford St, Paddington NSW 2021, Australia. Phone: +61 410 581 602. Email: relax@avedapaddington.com. avedapaddington.com",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

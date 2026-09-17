@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cinzel', serif;
+    --font-display: 'Cormorant Garamond', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Luxury visual accents with Forest Green & Warm Champagne Gold */
+.bg-deep-forest {
+  background-color: #070a08;
+}
+
+.bg-dark-olive {
+  background-color: #0b130e;
+}
+
+.glass-panel {
+  background: rgba(11, 19, 14, 0.65);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(223, 177, 91, 0.12);
+}
+
+.glass-panel-gold {
+  background: linear-gradient(135deg, rgba(223, 177, 91, 0.08) 0%, rgba(13, 23, 18, 0.85) 100%);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(223, 177, 91, 0.28);
+}
+
+.glass-panel-subtle {
+  background: rgba(7, 10, 8, 0.6);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF6E5 0%, #E8C682 35%, #DFB15B 70%, #9E7238 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bronze-gradient-text {
+  background: linear-gradient(135deg, #F3E5CF 0%, #D4AF37 50%, #8C5F28 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cream-text {
+  color: #F7F4ED;
+}
+
+.gold-glow {
+  box-shadow: 0 0 35px -5px rgba(223, 177, 91, 0.22);
+}
+
+.forest-glow {
+  box-shadow: 0 0 45px -8px rgba(18, 50, 30, 0.35);
+}
+
+.subtle-film-grain {
+  background-image: radial-gradient(rgba(247, 244, 237, 0.035) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom smooth luxury scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #060907;
+}
+::-webkit-scrollbar-thumb {
+  background: #19271e;
+  border-radius: 9999px;
+  border: 1px solid rgba(223, 177, 91, 0.15);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dfb15b;
+}
